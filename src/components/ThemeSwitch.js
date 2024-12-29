@@ -25,7 +25,7 @@ const ThemeSwitch = () => {
       onClick={toggleTheme}
       className="btn btn-outline btn-secondary"
     >
-      {theme === 'light' ? '🌞 Light Mode' : '🌜 Dark Mode'}
+      {theme === 'light' ? '☀️ Light Mode' : '🌑 Dark Mode'}
     </button>
   );
 };
