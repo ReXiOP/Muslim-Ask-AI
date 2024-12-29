@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
+import AskQuestion from "./components/AskQuestion";
+import "./index.css";
+import './input.css';
+import Footer from './components/Footer';
+import ThemeSwitch from './components/ThemeSwitch';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <header className="p-4 flex justify-between items-center shadow-md">
+        <h1 className="text-2xl font-bold">Ask Muslim</h1>
+        <ThemeSwitch />
       </header>
+      <div className="flex-grow">
+        <AskQuestion />
+      </div>
+      <Footer />
     </div>
   );
 }
