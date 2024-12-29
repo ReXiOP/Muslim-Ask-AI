@@ -65,8 +65,8 @@ const AskQuestion = () => {
 
   return (
     <div className="p-6 sm:p-8 md:p-10 lg:p-12 font-sans bg-gradient-to-r from-blue-500 via-purple-600 to-pink-600 dark:from-gray-800 dark:via-gray-700 dark:to-gray-600 rounded-3xl mx-auto shadow-lg text-white sm:max-w-full md:max-w-2xl lg:max-w-4xl mt-16 overflow-x-hidden">
-      <h1 className="text-center text-3xl mb-8">Ask Your Question</h1>
-      <h2 className="text-xl text-center mb-6">Get answers to your everyday questions backed by the Qu'ran</h2>
+      <h1 className="text-center text-3xl mb-8 text-black dark:text-white">Ask Your Question</h1>
+      <h2 className="text-xl text-center mb-6 text-black dark:text-white">Get answers to your everyday questions backed by the Qu'ran</h2>
 
       {/* Input field for the question */}
       <input
@@ -74,7 +74,7 @@ const AskQuestion = () => {
         placeholder="Type here"
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
-        className="input input-bordered input-secondary w-full mb-5 dark:bg-gray-900 dark:text-white text-black"
+        className="input input-bordered input-secondary w-full mb-5 dark:bg-gray-900 bg-white dark:text-white text-black"
       />
 
       {/* Submit button */}
