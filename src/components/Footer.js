@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full mt-8 bg-gray-200 dark:bg-gray-800 py-4 text-center fixed bottom-0">
+    <footer className="w-full mt-8 bg-gray-200 dark:bg-gray-800 py-4 text-center">
       <div className="text-gray-700 dark:text-gray-300">
         <p>
-          Created by 
-          <span className="animate-pulse">❤️</span> 
-          Muhammad Sajid
+          Created by
+          <span className="animate-pulse">❤️</span> Muhammad Sajid
         </p>
         <div className="flex justify-center mt-2 space-x-4">
           <a
@@ -26,7 +25,7 @@ const Footer = () => {
           >
             Twitter
           </a>
-          
+
           <a
             href="https://github.com/ReXiOP"
             target="_blank"
