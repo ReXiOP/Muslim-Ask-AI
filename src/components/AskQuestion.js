@@ -74,7 +74,7 @@ const AskQuestion = () => {
         placeholder="Type here"
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
-        className="input input-bordered input-secondary w-full mb-5 dark:bg-gray-900 dark:text-white"
+        className="input input-bordered input-secondary w-full mb-5 dark:bg-gray-900 dark:text-white text-black"
       />
 
       {/* Submit button */}
