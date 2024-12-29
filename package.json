@@ -5,7 +5,8 @@
     "email": "rexisajid5@gmail.com",
     "url": "https://github.com/ReXiOP"
   },
-  "homepage": "ReXiOP.github.io/Muslim-Ask-AI",
+ 
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
