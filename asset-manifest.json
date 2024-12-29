@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/ReXiOP.github.io/Muslim-Ask-AI/static/css/main.23975ffe.css",
-    "main.js": "/ReXiOP.github.io/Muslim-Ask-AI/static/js/main.39953dcf.js",
+    "main.js": "/ReXiOP.github.io/Muslim-Ask-AI/static/js/main.1e99ce91.js",
+    "static/js/488.95e110ad.chunk.js": "/ReXiOP.github.io/Muslim-Ask-AI/static/js/488.95e110ad.chunk.js",
     "index.html": "/ReXiOP.github.io/Muslim-Ask-AI/index.html",
     "main.23975ffe.css.map": "/ReXiOP.github.io/Muslim-Ask-AI/static/css/main.23975ffe.css.map",
-    "main.39953dcf.js.map": "/ReXiOP.github.io/Muslim-Ask-AI/static/js/main.39953dcf.js.map"
+    "main.1e99ce91.js.map": "/ReXiOP.github.io/Muslim-Ask-AI/static/js/main.1e99ce91.js.map",
+    "488.95e110ad.chunk.js.map": "/ReXiOP.github.io/Muslim-Ask-AI/static/js/488.95e110ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23975ffe.css",
-    "static/js/main.39953dcf.js"
+    "static/js/main.1e99ce91.js"
   ]
 }
